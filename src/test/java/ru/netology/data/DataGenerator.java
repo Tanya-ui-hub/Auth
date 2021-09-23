@@ -1,16 +1,15 @@
-package ru.netology.date;
+package ru.netology.data;
 
 import com.github.javafaker.Faker;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
-import lombok.var;
 
 import java.util.Locale;
 
 import static io.restassured.RestAssured.given;
-import static ru.netology.date.DataGenerator.SendQuery.makeRequest;
+import static ru.netology.data.DataGenerator.SendQuery.makeRequest;
 
 
 public class DataGenerator {
